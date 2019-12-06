@@ -32,12 +32,12 @@ async def new_join_f(client, message):
 
 
 async def help_message_f(client, message):
-    # await message.reply_text("no one gonna help you 🤣🤣🤣🤣", quote=True)
+    # await message.reply_text(" Contact : https://t.me/iamomkarofficial", quote=True)
     channel_id = str(AUTH_CHANNEL)[4:]
     message_id = 99
     # display the /help message
     await message.reply_text(
-        f"[Welcome !!](https://t.me/magnetdownloader/2339)\nPlease read the Pinned Message\n Useable commands are : \n `/leech` \n`/leech archive` \n`/ytdl` ",
+        f"[Welcome !!](https://t.me/magnetdownloader/2339)\nPlease read the Pinned Message\n\nUseable commands are : \n`/leech` \n`/leech archive`\n`/ytdl`\n\n If still getting some problems try checking chat or tag and ask admins in chat.",
         quote=True
     )
 
