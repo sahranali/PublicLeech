@@ -37,7 +37,7 @@ async def help_message_f(client, message):
     message_id = 99
     # display the /help message
     await message.reply_text(
-        f"Please read the Pinned Message",
+        f"[Welcome !!](https://t.me/magnetdownloader/2339)/nPlease read the Pinned Message/n Useable commands are : /n `/leech` /n`/leech archive` /n`/ytdl` ",
         quote=True
     )
 
