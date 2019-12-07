@@ -148,7 +148,7 @@ async def upload_single_file(message, local_file_name, caption_str):
                 width=width,
                 height=height,
                 thumb=thumb,
-                supports_streaming=True,
+                supports_streaming=False,
                 disable_notification=True,
                 reply_to_message_id=message.reply_to_message.message_id,
                 progress=progress_for_pyrogram,
