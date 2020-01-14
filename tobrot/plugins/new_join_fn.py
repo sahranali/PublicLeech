@@ -37,7 +37,7 @@ async def help_message_f(client, message):
     message_id = 99
     # display the /help message
     await message.reply_text(
-        f"[Welcome !!](https://t.me/magnetdownloader/2339)\n\nPlease read the Pinned Message\n\nReply these commands to Magnet link: \n`/leech@Alpacino_The_bot` \n`/leech@Alpacino_The_bot archive`\n`/ytdl@Alpacino_The_bot`\n`/savethumbnail@Alpacino_The_bot`\n`/clearthumbnail@Alpacino_The_bot`\n\n If still getting some problems try checking chat or tag and ask admins in chat.\n\n Check out our Channel for older uploads : @alpacinodump",
+        f"[Welcome !!](https://t.me/publicleechgroups)\n\nPlease read the Pinned Message\n\nReply these commands to Magnet link: \n`/leech@public_leechbot` \n`/leech@public_leechbot archive`\n`/ytdl@public_leechbot`\n`/savethumbnail@public_leechbot`\n`/clearthumbnail@public_leechbot`\n\n If still getting some problems try checking chat or tag and ask admins in chat.\n\n Check out our Channel for older uploads : @publicleechmovie ",
         quote=True
     )
 
